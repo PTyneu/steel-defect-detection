@@ -1,0 +1,14 @@
+# Generated datasets and outputs
+yolo_dataset/
+runs/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Teacher-only notebooks
+check.ipynb
+convert_to_yolo.ipynb
+prepare_yolo.ipynb
