@@ -1,14 +1,17 @@
-# Generated datasets and outputs
-yolo_dataset/
-runs/
-*.zip
+# Ignore everything
+*
 
-# Python
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
+# Allow tracked files
+!.gitignore
+!README.md
+!train_bboxes.csv
+!student_base.ipynb
+!baseline.ipynb
+!maximum.ipynb
 
-# Teacher-only notebooks
-check.ipynb
-convert_to_yolo.ipynb
-prepare_yolo.ipynb
+# Allow images for README
+!image-*.png
+
+# Allow train_images directory
+!train_images/
+!train_images/**
